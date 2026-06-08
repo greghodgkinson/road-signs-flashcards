@@ -1,0 +1,411 @@
+export type SignCategory = 'warning' | 'prohibitory' | 'mandatory' | 'information';
+
+export interface RoadSign {
+  id: string;
+  name: string;
+  description: string;
+  category: SignCategory;
+  // When real images are available, set this to the path, e.g. '/signs/warning/give-way-ahead.png'
+  // If null, a placeholder SVG is rendered based on category
+  imagePath: string | null;
+}
+
+export const ROAD_SIGNS: RoadSign[] = [
+  // ── WARNING (triangular, red border on yellow) ──────────────────────────
+  {
+    id: 'w-give-way-ahead',
+    name: 'Give Way Ahead',
+    description: 'You must give way to traffic on the major road ahead. Slow down and prepare to stop.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-crossroads',
+    name: 'Crossroads Ahead',
+    description: 'A crossroads junction is ahead. Be prepared for traffic crossing from both sides.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-t-junction',
+    name: 'T-Junction Ahead',
+    description: 'The road ends at a T-junction. You must turn either left or right.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-staggered-junction',
+    name: 'Staggered Junction',
+    description: 'A staggered crossroads ahead where side roads are offset. Take extra care.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-roundabout',
+    name: 'Roundabout Ahead',
+    description: 'A roundabout junction is ahead. Give way to traffic already on the roundabout.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-bend-left',
+    name: 'Bend Ahead (Left)',
+    description: 'A sharp bend to the left ahead. Reduce speed and stay on your side of the road.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-bend-right',
+    name: 'Bend Ahead (Right)',
+    description: 'A sharp bend to the right ahead. Reduce speed and stay on your side of the road.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-double-bend',
+    name: 'Double Bend Ahead',
+    description: 'Two successive bends ahead. The first bend is to the left. Reduce speed.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-traffic-signals',
+    name: 'Traffic Signals Ahead',
+    description: 'Traffic lights are ahead. Be prepared to stop on red.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-pedestrian-crossing',
+    name: 'Pedestrian Crossing',
+    description: 'A pedestrian crossing is ahead. Watch for people crossing the road.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-school-crossing',
+    name: 'School Crossing Patrol',
+    description: 'A school crossing patrol is ahead. Children may be crossing — be prepared to stop.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-level-crossing-barrier',
+    name: 'Level Crossing with Barrier',
+    description: 'A railway level crossing with automatic or manned barriers is ahead.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-level-crossing-no-barrier',
+    name: 'Level Crossing without Barrier',
+    description: 'An unprotected railway level crossing ahead. Stop, look, and listen before crossing.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-steep-hill-down',
+    name: 'Steep Hill Downwards',
+    description: 'A steep downhill gradient ahead. Use a lower gear and check brakes.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-steep-hill-up',
+    name: 'Steep Hill Upwards',
+    description: 'A steep uphill gradient ahead. Slower vehicles may be moving slowly.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-slippery-road',
+    name: 'Slippery Road',
+    description: 'The road surface ahead may be slippery, especially when wet. Reduce speed.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-loose-gravel',
+    name: 'Loose Gravel',
+    description: 'Loose chippings or gravel on the road ahead. Reduce speed — stones may be thrown up.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-falling-rocks',
+    name: 'Falling Rocks',
+    description: 'Risk of falling rocks from cliffs or embankments onto the road ahead.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-road-works',
+    name: 'Road Works',
+    description: 'Road works ahead. Expect delays, lane closures, and workers on the road.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-two-way-traffic',
+    name: 'Two-Way Traffic',
+    description: 'Two-way traffic ahead on a road that was previously one-way. Keep to the left.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-wild-animals',
+    name: 'Wild Animals',
+    description: 'Wild animals may be crossing the road ahead. Watch for deer or other wildlife.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-horses',
+    name: 'Accompanied Horses',
+    description: 'Horse riders or led horses may be on or crossing the road ahead.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-swing-bridge',
+    name: 'Opening or Swing Bridge',
+    description: 'A bridge ahead that opens or swings to allow river traffic to pass.',
+    category: 'warning',
+    imagePath: null,
+  },
+  {
+    id: 'w-low-aircraft',
+    name: 'Low-Flying Aircraft',
+    description: 'Low-flying aircraft or sudden noise from aircraft ahead. May startle animals or drivers.',
+    category: 'warning',
+    imagePath: null,
+  },
+
+  // ── PROHIBITORY (circular, red border on white) ───────────────────────
+  {
+    id: 'p-stop',
+    name: 'Stop',
+    description: 'You MUST stop and give way to all traffic before proceeding. Stop at the line.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-entry',
+    name: 'No Entry',
+    description: 'Entry is prohibited for all vehicles. Do not enter the road or area.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-speed-20',
+    name: 'Speed Limit 20 mph',
+    description: 'Maximum speed limit of 20 mph. You must not exceed this speed.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-speed-30',
+    name: 'Speed Limit 30 mph',
+    description: 'Maximum speed limit of 30 mph. Common in built-up urban areas.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-speed-40',
+    name: 'Speed Limit 40 mph',
+    description: 'Maximum speed limit of 40 mph. Often found on larger urban roads.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-speed-50',
+    name: 'Speed Limit 50 mph',
+    description: 'Maximum speed limit of 50 mph on this section of road.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-speed-60',
+    name: 'Speed Limit 60 mph',
+    description: 'Maximum speed limit of 60 mph. National speed limit on single carriageways.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-speed-70',
+    name: 'Speed Limit 70 mph',
+    description: 'Maximum speed limit of 70 mph. National speed limit on motorways and dual carriageways.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-right-turn',
+    name: 'No Right Turn',
+    description: 'Turning right is prohibited. You must continue straight or turn left.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-left-turn',
+    name: 'No Left Turn',
+    description: 'Turning left is prohibited. You must continue straight or turn right.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-u-turn',
+    name: 'No U-Turn',
+    description: 'U-turns are prohibited. You must not reverse direction here.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-overtaking',
+    name: 'No Overtaking',
+    description: 'Overtaking is prohibited on this section of road. Do not pass other moving vehicles.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-motor-vehicles',
+    name: 'No Motor Vehicles',
+    description: 'Motor vehicles are not permitted. Cyclists and pedestrians may use the road.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-cycling',
+    name: 'No Cycling',
+    description: 'Cycling is prohibited on this road or path. Cyclists must dismount or use another route.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-pedestrians',
+    name: 'No Pedestrians',
+    description: 'Pedestrians are not permitted on this road. Pedestrians must use another route.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-no-waiting',
+    name: 'No Waiting',
+    description: 'Waiting or parking is prohibited at any time on this section of road.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+  {
+    id: 'p-national-speed-limit',
+    name: 'National Speed Limit',
+    description: 'The national speed limit applies: 60 mph on single carriageways, 70 mph on dual carriageways/motorways.',
+    category: 'prohibitory',
+    imagePath: null,
+  },
+
+  // ── MANDATORY (circular, blue) ─────────────────────────────────────────
+  {
+    id: 'm-turn-left',
+    name: 'Turn Left Ahead',
+    description: 'You must turn left at the junction ahead. Straight ahead and right are not permitted.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+  {
+    id: 'm-turn-right',
+    name: 'Turn Right Ahead',
+    description: 'You must turn right at the junction ahead. Straight ahead and left are not permitted.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+  {
+    id: 'm-keep-left',
+    name: 'Keep Left',
+    description: 'You must pass to the left of the sign or obstruction ahead.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+  {
+    id: 'm-keep-right',
+    name: 'Keep Right',
+    description: 'You must pass to the right of the sign or obstruction ahead.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+  {
+    id: 'm-ahead-only',
+    name: 'Ahead Only',
+    description: 'You must continue straight ahead. Turning left or right is not permitted.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+  {
+    id: 'm-roundabout',
+    name: 'Mini-Roundabout',
+    description: 'A mini-roundabout ahead. Give way to traffic from the right and follow the direction arrows.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+  {
+    id: 'm-cycle-lane',
+    name: 'Cycle Lane',
+    description: 'A mandatory cycle-only lane. Motor vehicles must not enter this lane.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+  {
+    id: 'm-minimum-speed',
+    name: 'Minimum Speed 30 mph',
+    description: 'You must drive at least 30 mph on this section unless safety requires otherwise.',
+    category: 'mandatory',
+    imagePath: null,
+  },
+
+  // ── INFORMATION (rectangular, blue or green) ──────────────────────────
+  {
+    id: 'i-motorway',
+    name: 'Motorway',
+    description: 'You are entering or approaching a motorway. Learner drivers and slow vehicles are prohibited.',
+    category: 'information',
+    imagePath: null,
+  },
+  {
+    id: 'i-motorway-end',
+    name: 'End of Motorway',
+    description: 'The motorway ends ahead. National speed limit no longer applies; watch for junctions.',
+    category: 'information',
+    imagePath: null,
+  },
+  {
+    id: 'i-one-way-street',
+    name: 'One Way Street',
+    description: 'Traffic must travel in the direction shown. Wrong-way entry is prohibited.',
+    category: 'information',
+    imagePath: null,
+  },
+  {
+    id: 'i-parking',
+    name: 'Parking Place',
+    description: 'A designated parking area. Restrictions may apply — check the supplementary plate.',
+    category: 'information',
+    imagePath: null,
+  },
+  {
+    id: 'i-bus-lane',
+    name: 'Bus Lane',
+    description: 'A bus lane is ahead. Private cars may not use this lane during the hours shown.',
+    category: 'information',
+    imagePath: null,
+  },
+  {
+    id: 'i-zone-end',
+    name: 'End of Restricted Zone',
+    description: 'The speed limit or other restriction shown ends here. Check signs for new conditions.',
+    category: 'information',
+    imagePath: null,
+  },
+];
+
+export function getRandomSet(size = 20): RoadSign[] {
+  const shuffled = [...ROAD_SIGNS].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(size, shuffled.length));
+}
