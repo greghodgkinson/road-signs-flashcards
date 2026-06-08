@@ -1,18 +1,11 @@
-app = "roadsigns-quiz"       # run `fly apps create` to reserve this name, or change it
-primary_region = "lhr"       # change to your nearest region (e.g. ord, iad, syd, fra)
-
-[build]
-  [build.args]
-    # These are passed at deploy time — see README deploy command below.
-    # They are Supabase public keys (safe to use as build args).
-    VITE_SUPABASE_URL      = ""
-    VITE_SUPABASE_ANON_KEY = ""
+app = "roadsigns-quiz"   # update to your app name, or run: fly apps create
+primary_region = "lhr"  # change to nearest region: ord, iad, syd, fra, nrt …
 
 [http_service]
-  internal_port       = 8080
-  force_https         = true
-  auto_stop_machines  = "stop"
-  auto_start_machines = true
+  internal_port        = 8080
+  force_https          = true
+  auto_stop_machines   = "stop"
+  auto_start_machines  = true
   min_machines_running = 0
 
   [http_service.concurrency]
@@ -24,3 +17,9 @@ primary_region = "lhr"       # change to your nearest region (e.g. ord, iad, syd
   memory   = "256mb"
   cpu_kind = "shared"
   cpus     = 1
+
+# Persistent volume keeps scores.db across deploys and restarts.
+# Create it once with: fly volumes create scores_data --size 1
+[mounts]
+  source      = "scores_data"
+  destination = "/data"

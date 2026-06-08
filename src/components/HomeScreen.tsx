@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchHighScore, fetchScores, type ScoreRecord } from '../lib/supabase';
+import { fetchHighScore, fetchScores, type ScoreRecord } from '../lib/api';
 import { ROAD_SIGNS } from '../data/roadsigns';
 
 interface Props {

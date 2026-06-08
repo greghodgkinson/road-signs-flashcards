@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { saveScore, fetchHighScore, fetchScores, type ScoreRecord } from '../lib/supabase';
+import { saveScore, fetchHighScore, type ScoreRecord } from '../lib/api';
 
 interface Props {
   score: number;
@@ -41,28 +41,27 @@ function ScoreRing({ score, total }: { score: number; total: number }) {
 
 function grade(score: number, total: number): { label: string; color: string } {
   const pct = score / total;
-  if (pct === 1) return { label: 'Perfect!', color: '#22c55e' };
-  if (pct >= 0.9) return { label: 'Excellent!', color: '#22c55e' };
-  if (pct >= 0.75) return { label: 'Good Job!', color: '#84cc16' };
-  if (pct >= 0.5) return { label: 'Keep Practising', color: '#f59e0b' };
-  return { label: 'Try Again', color: '#ef4444' };
+  if (pct === 1)   return { label: 'Perfect!',        color: '#22c55e' };
+  if (pct >= 0.9)  return { label: 'Excellent!',      color: '#22c55e' };
+  if (pct >= 0.75) return { label: 'Good Job!',       color: '#84cc16' };
+  if (pct >= 0.5)  return { label: 'Keep Practising', color: '#f59e0b' };
+  return               { label: 'Try Again',          color: '#ef4444' };
 }
 
 export default function ResultsScreen({ score, total, onPlayAgain, onHome }: Props) {
-  const [saved, setSaved] = useState(false);
   const [highScore, setHighScore] = useState<number | null>(null);
   const [recentScores, setRecentScores] = useState<ScoreRecord[]>([]);
   const [isNewHigh, setIsNewHigh] = useState(false);
 
   useEffect(() => {
     async function persist() {
-      const [prevHigh] = await Promise.all([fetchHighScore()]);
-      await saveScore(score, total);
-      const [newHigh, recent] = await Promise.all([fetchHighScore(), fetchScores()]);
-      setHighScore(newHigh);
-      setRecentScores(recent);
-      setIsNewHigh(score > prevHigh);
-      setSaved(true);
+      const prevHigh = await fetchHighScore();
+      const saved = await saveScore(score, total);
+      if (saved) {
+        setHighScore(saved.highScore);
+        setRecentScores(saved.scores);
+        setIsNewHigh(score > prevHigh);
+      }
     }
     persist();
   }, [score, total]);
@@ -82,7 +81,7 @@ export default function ResultsScreen({ score, total, onPlayAgain, onHome }: Pro
         </p>
       </div>
 
-      {saved && highScore !== null && (
+      {highScore !== null && (
         <div className="results-stats">
           <div className="stat-card">
             <span className="stat-label">High Score</span>
@@ -116,9 +115,7 @@ export default function ResultsScreen({ score, total, onPlayAgain, onHome }: Pro
               return (
                 <div key={s.id} className={`score-row${i === 0 ? ' score-row--latest' : ''}`}>
                   <span className={`score-dot score-dot--${dot}`} />
-                  <span className="score-row-val">
-                    {s.score} / {s.total}
-                  </span>
+                  <span className="score-row-val">{s.score} / {s.total}</span>
                   <span className="score-row-date">{date}</span>
                 </div>
               );
