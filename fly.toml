@@ -1,5 +1,8 @@
-app = "roadsigns-quiz"   # update to your app name, or run: fly apps create
-primary_region = "lhr"  # change to nearest region: ord, iad, syd, fra, nrt …
+# Fly.io deployment, following the unit-assistant-service setup.
+app = "roadsigns-quiz"
+primary_region = "jnb"
+
+[build]
 
 [http_service]
   internal_port        = 8080
@@ -7,19 +10,25 @@ primary_region = "lhr"  # change to nearest region: ord, iad, syd, fra, nrt …
   auto_stop_machines   = "stop"
   auto_start_machines  = true
   min_machines_running = 0
+  processes            = ["app"]
 
   [http_service.concurrency]
     type       = "connections"
     hard_limit = 25
     soft_limit = 20
 
+  [[http_service.checks]]
+    interval = "15s"
+    timeout = "2s"
+    grace_period = "10s"
+    method = "GET"
+    path = "/health"
+
 [[vm]]
   memory   = "256mb"
   cpu_kind = "shared"
   cpus     = 1
 
-# Persistent volume keeps scores.db across deploys and restarts.
-# Create it once with: fly volumes create scores_data --size 1
 [mounts]
   source      = "scores_data"
   destination = "/data"

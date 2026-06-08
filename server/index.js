@@ -33,6 +33,10 @@ app.use(express.json());
 
 // ── API ──────────────────────────────────────────────────────────────────────
 
+app.get('/health', (_req, res) => {
+  res.json({ status: 'ok' });
+});
+
 app.get('/api/scores', (_req, res) => {
   const scores    = getRecent.all();
   const { hs }    = getHighScore.get();
