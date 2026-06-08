@@ -8,6 +8,8 @@ export interface RoadSign {
   imagePath: string;
 }
 
+import { RTSIGNS_PAGE_1_ADDITIONAL, RTSIGNS_PAGE_1_CODE_2 } from './rtsigns-page1';
+
 const sign = (
   number: number | string,
   name: string,
@@ -94,6 +96,8 @@ export const ROAD_SIGNS: RoadSign[] = [
   sign(60, 'Reserved Parking', 'This is a reservation sign; use the reserved area only when permitted.', 'information'),
   sign(61, 'No Cars', 'Cars may not drive here.', 'prohibitory'),
   sign(62, 'Lane Use Diagram', 'This road marking shows the available lanes and their directions to road users.', 'information'),
+  ...RTSIGNS_PAGE_1_CODE_2,
+  ...RTSIGNS_PAGE_1_ADDITIONAL,
 ];
 
 export function getRandomSet(size = 20): RoadSign[] {

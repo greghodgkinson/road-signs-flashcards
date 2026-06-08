@@ -1,0 +1,1090 @@
+[
+  {
+    "code": "(R)132-600",
+    "name": "End of pay toll restriction"
+  },
+  {
+    "code": "(R)133-600",
+    "name": "End of headlamps-on restriction"
+  },
+  {
+    "code": "(R)202-600",
+    "name": "End of mass restriction"
+  },
+  {
+    "code": "(R)304-600",
+    "name": "End of pedal cycle lane reservation"
+  },
+  {
+    "code": "(R)401-600",
+    "name": "End of dual-carriageway freeway"
+  },
+  {
+    "code": "(R)402-600",
+    "name": "End of single-carriageway freeway"
+  },
+  {
+    "code": "(R)403-600",
+    "name": "End of woonerf"
+  },
+  {
+    "code": "(R)501",
+    "name": "One period time limit"
+  },
+  {
+    "code": "(R)502",
+    "name": "Two periods time limit"
+  },
+  {
+    "code": "(R)503",
+    "name": "Two periods or days time limit"
+  },
+  {
+    "code": "(R)504",
+    "name": "Three periods or days time limit"
+  },
+  {
+    "code": "(R)505",
+    "name": "Maximum stay during two periods or days time limit"
+  },
+  {
+    "code": "(R)506",
+    "name": "Maximum stay during one period time limit"
+  },
+  {
+    "code": "(R)511",
+    "name": "Day condition"
+  },
+  {
+    "code": "(R)512",
+    "name": "Night condition"
+  },
+  {
+    "code": "(R)520",
+    "name": "Reserved movement left by vehicle class"
+  },
+  {
+    "code": "(R)521",
+    "name": "Reserved movement right by vehicle class"
+  },
+  {
+    "code": "(R)522",
+    "name": "Reserved movement to left & right by vehicle class"
+  },
+  {
+    "code": "(R)523",
+    "name": "Pay & display"
+  },
+  {
+    "code": "(R)530",
+    "name": "Operator identity (logo)"
+  },
+  {
+    "code": "(R)531",
+    "name": "Operator identity (words)"
+  },
+  {
+    "code": "(R)532",
+    "name": "Mass limit sign (text)"
+  },
+  {
+    "code": "(R)533",
+    "name": "Motor cycle engine size limit sign (text)"
+  },
+  {
+    "code": "(R)534",
+    "name": "“and Local Access Only” limit sign (text)"
+  },
+  {
+    "code": "(R)535",
+    "name": "Distance “For” limit sign (text)"
+  },
+  {
+    "code": "(R)540",
+    "name": "Maximum number of vehicles"
+  },
+  {
+    "code": "(R)560",
+    "name": "Buses"
+  },
+  {
+    "code": "(R)561",
+    "name": "Pedal cycles"
+  },
+  {
+    "code": "(R)562",
+    "name": "Motor cycles"
+  },
+  {
+    "code": "(R)563",
+    "name": "Motor cars"
+  },
+  {
+    "code": "(R)564",
+    "name": "Taxi"
+  },
+  {
+    "code": "(R)565",
+    "name": "Minibus"
+  },
+  {
+    "code": "(R)566",
+    "name": "Midibus"
+  },
+  {
+    "code": "(R)567",
+    "name": "Delivery vehicle"
+  },
+  {
+    "code": "(R)568",
+    "name": "Goods vehicle"
+  },
+  {
+    "code": "(R)569",
+    "name": "Goods vehicle over indicated GVM"
+  },
+  {
+    "code": "(R)570",
+    "name": "Construction vehicle"
+  },
+  {
+    "code": "(R)571",
+    "name": "Vehicle conveying dangerous goods"
+  },
+  {
+    "code": "(R)572",
+    "name": "Abnormal vehicle"
+  },
+  {
+    "code": "(R)573",
+    "name": "Rickshaw"
+  },
+  {
+    "code": "(R)574",
+    "name": "Tour bus"
+  },
+  {
+    "code": "(R)575",
+    "name": "High occupancy vehicle"
+  },
+  {
+    "code": "(R)576",
+    "name": "Emergency vehicle"
+  },
+  {
+    "code": "(R)577",
+    "name": "Police vehicle"
+  },
+  {
+    "code": "(R)578",
+    "name": "Disabled persons vehicle"
+  },
+  {
+    "code": "(R)579",
+    "name": "Authorized vehicle"
+  },
+  {
+    "code": "(R)580",
+    "name": "Agricultural vehicle"
+  },
+  {
+    "code": "(R)581",
+    "name": "Animal-drawn vehicle"
+  },
+  {
+    "code": "(R)582",
+    "name": "Towed vehicle"
+  },
+  {
+    "code": "(R)583",
+    "name": "Tram vehicle"
+  },
+  {
+    "code": "(R)600",
+    "name": "De-restriction"
+  },
+  {
+    "code": "FRD",
+    "name": "Red flashing signal"
+  },
+  {
+    "code": "FRD-R1",
+    "name": "Railway crossing red flashing signal"
+  },
+  {
+    "code": "R1",
+    "name": "Stop"
+  },
+  {
+    "code": "R1.1",
+    "name": "Stop"
+  },
+  {
+    "code": "R1.2",
+    "name": "Stop/Yield"
+  },
+  {
+    "code": "R1.3",
+    "name": "3-Way stop"
+  },
+  {
+    "code": "R1.4",
+    "name": "4-Way stop"
+  },
+  {
+    "code": "R1.5",
+    "name": "Stop/Go"
+  },
+  {
+    "code": "R2",
+    "name": "Yield"
+  },
+  {
+    "code": "R2.1",
+    "name": "Yield to pedestrians"
+  },
+  {
+    "code": "R2.2",
+    "name": "Yield at mini-circle"
+  },
+  {
+    "code": "R3",
+    "name": "No entry"
+  },
+  {
+    "code": "R4.1",
+    "name": "One-way roadway left"
+  },
+  {
+    "code": "R4.2",
+    "name": "One-way roadway right"
+  },
+  {
+    "code": "R4.3",
+    "name": "One-way roadway straight ahead"
+  },
+  {
+    "code": "R5",
+    "name": "Pedestrian priority"
+  },
+  {
+    "code": "R6",
+    "name": "Yield to oncoming traffic"
+  },
+  {
+    "code": "R101",
+    "name": "Minimum Speed"
+  },
+  {
+    "code": "R102",
+    "name": "Vehicles exceeding mass only"
+  },
+  {
+    "code": "R103",
+    "name": "Keep left"
+  },
+  {
+    "code": "R104",
+    "name": "Keep right"
+  },
+  {
+    "code": "R105",
+    "name": "Proceed left only"
+  },
+  {
+    "code": "R106",
+    "name": "Proceed right only"
+  },
+  {
+    "code": "R107",
+    "name": "Proceed straight only"
+  },
+  {
+    "code": "R108",
+    "name": "Turn left"
+  },
+  {
+    "code": "R109",
+    "name": "Turn right"
+  },
+  {
+    "code": "R110",
+    "name": "Pedestrians only"
+  },
+  {
+    "code": "R111",
+    "name": "Pedal cycles only"
+  },
+  {
+    "code": "R112",
+    "name": "Pedal cycles and pedestrians only"
+  },
+  {
+    "code": "R113",
+    "name": "Pedal cycles and pedestrians only"
+  },
+  {
+    "code": "R114",
+    "name": "Pedal cycles and pedestrians only"
+  },
+  {
+    "code": "R115",
+    "name": "Pedal cycles and pedestrians only"
+  },
+  {
+    "code": "R116",
+    "name": "Motor cycles only"
+  },
+  {
+    "code": "R117",
+    "name": "Motor cars only"
+  },
+  {
+    "code": "R118",
+    "name": "Taxis only"
+  },
+  {
+    "code": "R119",
+    "name": "Minibuses only"
+  },
+  {
+    "code": "R120",
+    "name": "Midibus only"
+  },
+  {
+    "code": "R121",
+    "name": "Buses only"
+  },
+  {
+    "code": "R122",
+    "name": "Delivery vehicles only"
+  },
+  {
+    "code": "R123",
+    "name": "Goods vehicles only"
+  },
+  {
+    "code": "R124",
+    "name": "Goods vehicles over indicated GVM only"
+  },
+  {
+    "code": "R125",
+    "name": "Construction vehicles only"
+  },
+  {
+    "code": "R126",
+    "name": "Vehicles conveying dangerous goods only"
+  },
+  {
+    "code": "R127",
+    "name": "Abnormal vehicles only"
+  },
+  {
+    "code": "R128",
+    "name": "Rickshaws only"
+  },
+  {
+    "code": "R129",
+    "name": "Tour buses only"
+  },
+  {
+    "code": "R130",
+    "name": "Agricultural vehicles only"
+  },
+  {
+    "code": "R131",
+    "name": "Animal-drawn vehicles only"
+  },
+  {
+    "code": "R132",
+    "name": "Pay toll"
+  },
+  {
+    "code": "R133",
+    "name": "Switch head lamps on"
+  },
+  {
+    "code": "R134",
+    "name": "Buses & minibuses only"
+  },
+  {
+    "code": "R135",
+    "name": "Buses & midibuses only"
+  },
+  {
+    "code": "R136",
+    "name": "Buses, midibuses & minibuses only"
+  },
+  {
+    "code": "R137",
+    "name": "Roundabout"
+  },
+  {
+    "code": "R138",
+    "name": "Trams only"
+  },
+  {
+    "code": "R139",
+    "name": "Buses & trams only"
+  },
+  {
+    "code": "R140",
+    "name": "Buses, trams & minibuses only"
+  },
+  {
+    "code": "R201",
+    "name": "Speed limit"
+  },
+  {
+    "code": "R202",
+    "name": "Mass limit"
+  },
+  {
+    "code": "R203",
+    "name": "Axle massload limit"
+  },
+  {
+    "code": "R204",
+    "name": "Height limit"
+  },
+  {
+    "code": "R205",
+    "name": "Length limit"
+  },
+  {
+    "code": "R206",
+    "name": "Excessive noise prohibited"
+  },
+  {
+    "code": "R207",
+    "name": "Hitch-hiking prohibited"
+  },
+  {
+    "code": "R208",
+    "name": "Unauthorized vehicles prohibited"
+  },
+  {
+    "code": "R209",
+    "name": "Left turn ahead prohibited"
+  },
+  {
+    "code": "R210",
+    "name": "Right turn ahead prohibited"
+  },
+  {
+    "code": "R211",
+    "name": "Left turn prohibited"
+  },
+  {
+    "code": "R212",
+    "name": "Right turn prohibited"
+  },
+  {
+    "code": "R213",
+    "name": "U-turn prohibited"
+  },
+  {
+    "code": "R214",
+    "name": "Overtaking prohibited"
+  },
+  {
+    "code": "R215",
+    "name": "Overtaking by goods vehicle prohibited"
+  },
+  {
+    "code": "R216",
+    "name": "Parking prohibited"
+  },
+  {
+    "code": "R217",
+    "name": "Stopping prohibited"
+  },
+  {
+    "code": "R218",
+    "name": "Pedestrian prohibited"
+  },
+  {
+    "code": "R219",
+    "name": "Pedal cycle prohibited"
+  },
+  {
+    "code": "R220",
+    "name": "Pedal cycle & pedestrian prohibited"
+  },
+  {
+    "code": "R222",
+    "name": "Motor cycle prohibited"
+  },
+  {
+    "code": "R223",
+    "name": "Motor car prohibited"
+  },
+  {
+    "code": "R224",
+    "name": "Taxi prohibited"
+  },
+  {
+    "code": "R225",
+    "name": "Minibus prohibited"
+  },
+  {
+    "code": "R226",
+    "name": "Midibus prohibited"
+  },
+  {
+    "code": "R227",
+    "name": "Bus prohibited"
+  },
+  {
+    "code": "R228",
+    "name": "Delivery vehicle prohibited"
+  },
+  {
+    "code": "R229",
+    "name": "Goods vehicle prohibited"
+  },
+  {
+    "code": "R230",
+    "name": "Goods vehicle over indicated GVM prohibited"
+  },
+  {
+    "code": "R231",
+    "name": "Construction vehicle prohibited"
+  },
+  {
+    "code": "R232",
+    "name": "Vehicle conveying dangerous goods prohibited"
+  },
+  {
+    "code": "R233",
+    "name": "Abnormal vehicle prohibited"
+  },
+  {
+    "code": "R234",
+    "name": "Rickshaw prohibited"
+  },
+  {
+    "code": "R235",
+    "name": "Tour bus prohibited"
+  },
+  {
+    "code": "R236",
+    "name": "Agricultural vehicle prohibited"
+  },
+  {
+    "code": "R237",
+    "name": "Animal-drawn vehicle prohibited"
+  },
+  {
+    "code": "R238",
+    "name": "Horses & riders prohibited"
+  },
+  {
+    "code": "R239",
+    "name": "Width limit"
+  },
+  {
+    "code": "R240",
+    "name": "Towed vehicles prohibited"
+  },
+  {
+    "code": "R241",
+    "name": "Hawkers prohibited"
+  },
+  {
+    "code": "R301",
+    "name": "Bus reservation"
+  },
+  {
+    "code": "R301-P",
+    "name": "Bus parking reservation"
+  },
+  {
+    "code": "R302",
+    "name": "Bus lane reservation"
+  },
+  {
+    "code": "R303",
+    "name": "Bus lane reservation begins"
+  },
+  {
+    "code": "R304",
+    "name": "Pedal cycle lane reservation"
+  },
+  {
+    "code": "R304-P",
+    "name": "Pedal cycle parking reservation"
+  },
+  {
+    "code": "R305-P",
+    "name": "Parking reservation"
+  },
+  {
+    "code": "R306-P",
+    "name": "Limited parking reservation"
+  },
+  {
+    "code": "R307",
+    "name": "Motor cycle reservation"
+  },
+  {
+    "code": "R307-P",
+    "name": "Motor cycle parking reservation"
+  },
+  {
+    "code": "R308",
+    "name": "Motor car reservation"
+  },
+  {
+    "code": "R308-P",
+    "name": "Motor car parking reservation"
+  },
+  {
+    "code": "R309",
+    "name": "Taxi reservation"
+  },
+  {
+    "code": "R309-P",
+    "name": "Taxi parking reservation"
+  },
+  {
+    "code": "R310",
+    "name": "Minibus reservation"
+  },
+  {
+    "code": "R310-P",
+    "name": "Minibus parking reservation"
+  },
+  {
+    "code": "R311",
+    "name": "Midibus reservation"
+  },
+  {
+    "code": "R311-P",
+    "name": "Midibus parking reservation"
+  },
+  {
+    "code": "R312",
+    "name": "Delivery vehicle reservation"
+  },
+  {
+    "code": "R312-P",
+    "name": "Delivery vehicle parking reservation"
+  },
+  {
+    "code": "R313",
+    "name": "Goods vehicle reservation"
+  },
+  {
+    "code": "R313-P",
+    "name": "Goods vehicle parking reservation"
+  },
+  {
+    "code": "R314",
+    "name": "Goods vehicle over indicated GVM reservation"
+  },
+  {
+    "code": "R314-P",
+    "name": "Goods vehicle over indicated GVM parking reservation"
+  },
+  {
+    "code": "R315",
+    "name": "Construction vehicle reservation"
+  },
+  {
+    "code": "R315-P",
+    "name": "Construction vehicle parking reservation"
+  },
+  {
+    "code": "R316",
+    "name": "Vehicle conveying dangerous goods reservation"
+  },
+  {
+    "code": "R316-P",
+    "name": "Vehicle conveying dangerous goods parking reservation"
+  },
+  {
+    "code": "R317",
+    "name": "Abnormal vehicle reservation"
+  },
+  {
+    "code": "R317-P",
+    "name": "Abnormal vehicle parking reservation"
+  },
+  {
+    "code": "R318",
+    "name": "Rickshaw reservation"
+  },
+  {
+    "code": "R318-P",
+    "name": "Rickshaw parking reservation"
+  },
+  {
+    "code": "R319",
+    "name": "Tour bus reservation"
+  },
+  {
+    "code": "R319-P",
+    "name": "Tour bus parking reservation"
+  },
+  {
+    "code": "R320",
+    "name": "High occupancy vehicle reservation"
+  },
+  {
+    "code": "R320-P",
+    "name": "High occupancy vehicle parking reservation"
+  },
+  {
+    "code": "R321",
+    "name": "Emergency vehicle reservation"
+  },
+  {
+    "code": "R321-P",
+    "name": "Emergency vehicle parking reservation"
+  },
+  {
+    "code": "R322",
+    "name": "Police vehicle reservation"
+  },
+  {
+    "code": "R322-P",
+    "name": "Police vehicle parking reservation"
+  },
+  {
+    "code": "R323",
+    "name": "Disabled persons vehicle reservation"
+  },
+  {
+    "code": "R323-P",
+    "name": "Disabled persons vehicle parking reservation"
+  },
+  {
+    "code": "R324",
+    "name": "Authorized vehicle reservation"
+  },
+  {
+    "code": "R324-P",
+    "name": "Authorized vehicle parking reservation"
+  },
+  {
+    "code": "R325",
+    "name": "Bus stop reservation"
+  },
+  {
+    "code": "R326",
+    "name": "Minibus stop reservation"
+  },
+  {
+    "code": "R327",
+    "name": "Bus & minibus reservation"
+  },
+  {
+    "code": "R327-P",
+    "name": "Bus & minibus parking reservation"
+  },
+  {
+    "code": "R328",
+    "name": "Bus & minibus lane reservation"
+  },
+  {
+    "code": "R329",
+    "name": "Bus & minibus lane reservation begins"
+  },
+  {
+    "code": "R330",
+    "name": "Bus & midibus reservation"
+  },
+  {
+    "code": "R330-P",
+    "name": "Bus & midibus parking reservation"
+  },
+  {
+    "code": "R331",
+    "name": "Bus & midibus lane reservation"
+  },
+  {
+    "code": "R332",
+    "name": "Bus & midibus lane reservation begins"
+  },
+  {
+    "code": "R333",
+    "name": "Bus, midibus & minibus reservation"
+  },
+  {
+    "code": "R333-P",
+    "name": "Bus, midibus & minibus parking reservation"
+  },
+  {
+    "code": "R334",
+    "name": "Bus, midibus & minibus lane reservation"
+  },
+  {
+    "code": "R335",
+    "name": "Bus, midibus & minibus lane reservation begins"
+  },
+  {
+    "code": "R336",
+    "name": "High occupancy vehicle lane reservation"
+  },
+  {
+    "code": "R337",
+    "name": "High occupancy vehicle lane reservation begins"
+  },
+  {
+    "code": "R338",
+    "name": "Tram reservation"
+  },
+  {
+    "code": "R339",
+    "name": "Tram lane reservation"
+  },
+  {
+    "code": "R340",
+    "name": "Tram lane reservation begins"
+  },
+  {
+    "code": "R341",
+    "name": "Tram stop reservation"
+  },
+  {
+    "code": "R342",
+    "name": "Bus & tram reservation"
+  },
+  {
+    "code": "R343",
+    "name": "Bus & tram lane reservation"
+  },
+  {
+    "code": "R344",
+    "name": "Bus & tram lane reservation begins"
+  },
+  {
+    "code": "R345",
+    "name": "Bus, minibus & tram reservation"
+  },
+  {
+    "code": "R346",
+    "name": "Bus, minibus & tram lane reservation"
+  },
+  {
+    "code": "R347",
+    "name": "Bus, minibus & tram lane reservation begins"
+  },
+  {
+    "code": "R348",
+    "name": "Bus lane right reservation"
+  },
+  {
+    "code": "R349",
+    "name": "Bus & minibus lane right reservation"
+  },
+  {
+    "code": "R350",
+    "name": "Bus & tram lane right reservation"
+  },
+  {
+    "code": "R351",
+    "name": "Bus, minibus & tram lane right reservation"
+  },
+  {
+    "code": "R352",
+    "name": "High occupancy vehicle lane right reservation"
+  },
+  {
+    "code": "R353",
+    "name": "Authorized passenger transport vehicle lane reservation"
+  },
+  {
+    "code": "R354",
+    "name": "Authorized passenger transport vehicle lane right reservation"
+  },
+  {
+    "code": "R401",
+    "name": "Dual-carriageway freeway begins"
+  },
+  {
+    "code": "R402",
+    "name": "Single-carriageway freeway begins"
+  },
+  {
+    "code": "R403",
+    "name": "Woonerf"
+  },
+  {
+    "code": "S1",
+    "name": "Standard traffic signal"
+  },
+  {
+    "code": "S1(L)",
+    "name": "Standard traffic signal with left signal"
+  },
+  {
+    "code": "S1A",
+    "name": "Arrow traffic signal"
+  },
+  {
+    "code": "S1AL",
+    "name": "Left-arrow traffic signal"
+  },
+  {
+    "code": "S1AR",
+    "name": "Right-arrow traffic signal"
+  },
+  {
+    "code": "S1B",
+    "name": "Bus traffic signal"
+  },
+  {
+    "code": "S1T",
+    "name": "Tram traffic signal"
+  },
+  {
+    "code": "S2",
+    "name": "Traffic signal"
+  },
+  {
+    "code": "S3",
+    "name": "Traffic signal"
+  },
+  {
+    "code": "S4",
+    "name": "Traffic signal"
+  },
+  {
+    "code": "S5",
+    "name": "Traffic signal with arrow"
+  },
+  {
+    "code": "S6",
+    "name": "Traffic signal with arrow"
+  },
+  {
+    "code": "S7",
+    "name": "Traffic signal with arrow"
+  },
+  {
+    "code": "S8",
+    "name": "Traffic signal with arrows"
+  },
+  {
+    "code": "S8B",
+    "name": "Bus traffic signal with arrows"
+  },
+  {
+    "code": "S8T",
+    "name": "Tram traffic signal with arrows"
+  },
+  {
+    "code": "S9",
+    "name": "Traffic signal with arrows"
+  },
+  {
+    "code": "S9B",
+    "name": "Bus traffic signal with arrows"
+  },
+  {
+    "code": "S9T",
+    "name": "Tram traffic signal with arrows"
+  },
+  {
+    "code": "S10L",
+    "name": "Left-arrow traffic signal"
+  },
+  {
+    "code": "S10R",
+    "name": "Right-arrow traffic signal"
+  },
+  {
+    "code": "S11",
+    "name": "Pedestrian traffic signal"
+  },
+  {
+    "code": "S12",
+    "name": "Traffic signal"
+  },
+  {
+    "code": "S13",
+    "name": "Traffic signal with right arrow"
+  },
+  {
+    "code": "S14",
+    "name": "Traffic signal with left arrow"
+  },
+  {
+    "code": "S15",
+    "name": "Traffic signal with multiple arrows"
+  },
+  {
+    "code": "S16",
+    "name": "Open lane signal"
+  },
+  {
+    "code": "S17",
+    "name": "Closed lane signal"
+  },
+  {
+    "code": "S18",
+    "name": "Leave lane to the left signal"
+  },
+  {
+    "code": "S19",
+    "name": "Leave lane to the right signal"
+  },
+  {
+    "code": "S20",
+    "name": "Pedal cycle traffic signal"
+  },
+  {
+    "code": "SS1(a)",
+    "name": "Stop traffic approaching from the front"
+  },
+  {
+    "code": "SS1(b)",
+    "name": "Stop traffic approaching from the rear"
+  },
+  {
+    "code": "SS1(c)",
+    "name": "Stop traffic approaching from the front and rear"
+  },
+  {
+    "code": "SS1(d)",
+    "name": "Traffic may proceed as directed by the officer"
+  },
+  {
+    "code": "SS1(e)",
+    "name": "Traffic may proceed as directed by the officer"
+  },
+  {
+    "code": "SS2(a)",
+    "name": "Flag signal to warn traffic"
+  },
+  {
+    "code": "SS2(b)",
+    "name": "Flag signal to stop"
+  },
+  {
+    "code": "SS2(c)",
+    "name": "Flag signal to proceed"
+  },
+  {
+    "code": "SS2(d)",
+    "name": "Flag signal to slow down"
+  },
+  {
+    "code": "SS2(e)",
+    "name": "Warning of slow-moving vehicles"
+  },
+  {
+    "code": "SS3(a)",
+    "name": "Flashing warning signal with speed limit"
+  },
+  {
+    "code": "SS3(b)",
+    "name": "Flashing warning signal with crossroads warning"
+  },
+  {
+    "code": "SS3(c)",
+    "name": "Flashing warning signal with stop-ahead warning"
+  }
+]
