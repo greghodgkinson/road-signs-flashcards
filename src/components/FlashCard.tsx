@@ -4,14 +4,26 @@ import SignPlaceholder from './SignPlaceholder';
 
 interface Props {
   sign: RoadSign;
-  cardNumber: number;
-  total: number;
+  // Initial quiz mode
+  cardNumber?: number;
+  total?: number;
+  // Review mode
+  reviewRemaining?: number;
   onCorrect: () => void;
   onIncorrect: () => void;
 }
 
-export default function FlashCard({ sign, cardNumber, total, onCorrect, onIncorrect }: Props) {
+export default function FlashCard({
+  sign,
+  cardNumber,
+  total,
+  reviewRemaining,
+  onCorrect,
+  onIncorrect,
+}: Props) {
   const [flipped, setFlipped] = useState(false);
+
+  const isReview = reviewRemaining !== undefined;
 
   function handleFlip() {
     if (!flipped) setFlipped(true);
@@ -19,7 +31,6 @@ export default function FlashCard({ sign, cardNumber, total, onCorrect, onIncorr
 
   function handleAnswer(correct: boolean) {
     setFlipped(false);
-    // Small delay so the card can visually reset before the next card mounts
     setTimeout(() => {
       if (correct) onCorrect();
       else onIncorrect();
@@ -35,19 +46,31 @@ export default function FlashCard({ sign, cardNumber, total, onCorrect, onIncorr
 
   return (
     <div className="flashcard-wrapper">
-      <div className="progress-bar-track">
-        <div
-          className="progress-bar-fill"
-          style={{ width: `${((cardNumber - 1) / total) * 100}%` }}
-        />
-      </div>
-
-      <div className="card-counter">
-        {cardNumber} / {total}
-      </div>
+      {isReview ? (
+        <div className="review-progress-header">
+          <div className="review-progress-track">
+            <div className="review-progress-fill" />
+          </div>
+          <p className="review-hint-text">
+            Answer correctly to clear this card
+          </p>
+        </div>
+      ) : (
+        <>
+          <div className="progress-bar-track">
+            <div
+              className="progress-bar-fill"
+              style={{ width: `${(((cardNumber ?? 1) - 1) / (total ?? 20)) * 100}%` }}
+            />
+          </div>
+          <div className="card-counter">
+            {cardNumber} / {total}
+          </div>
+        </>
+      )}
 
       <div
-        className={`card-scene${flipped ? ' is-flipped' : ''}`}
+        className={`card-scene${flipped ? ' is-flipped' : ''}${isReview ? ' card-scene--review' : ''}`}
         onClick={handleFlip}
         role="button"
         aria-label={flipped ? 'Card showing answer' : 'Tap to reveal sign name'}
@@ -57,6 +80,12 @@ export default function FlashCard({ sign, cardNumber, total, onCorrect, onIncorr
         <div className="card-inner">
           {/* FRONT */}
           <div className="card-face card-front">
+            {isReview && (
+              <div className="review-indicator">
+                <span className="review-indicator-dot" />
+                Review
+              </div>
+            )}
             <div className="card-category-badge" data-cat={sign.category}>
               {categoryLabel[sign.category]}
             </div>
@@ -72,6 +101,12 @@ export default function FlashCard({ sign, cardNumber, total, onCorrect, onIncorr
 
           {/* BACK */}
           <div className="card-face card-back">
+            {isReview && (
+              <div className="review-indicator">
+                <span className="review-indicator-dot" />
+                Review
+              </div>
+            )}
             <div className="card-category-badge" data-cat={sign.category}>
               {categoryLabel[sign.category]}
             </div>
