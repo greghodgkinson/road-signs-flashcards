@@ -9,6 +9,7 @@ export interface RoadSign {
 }
 
 import { RTSIGNS_PAGE_1_ADDITIONAL, RTSIGNS_PAGE_1_CODE_2 } from './rtsigns-page1';
+import { RTSIGNS_PAGE_2 } from './rtsigns-page2';
 
 const sign = (
   number: number | string,
@@ -98,6 +99,7 @@ export const ROAD_SIGNS: RoadSign[] = [
   sign(62, 'Lane Use Diagram', 'This road marking shows the available lanes and their directions to road users.', 'information'),
   ...RTSIGNS_PAGE_1_CODE_2,
   ...RTSIGNS_PAGE_1_ADDITIONAL,
+  ...RTSIGNS_PAGE_2,
 ];
 
 export function getRandomSet(size = 20): RoadSign[] {

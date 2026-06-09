@@ -1,0 +1,807 @@
+[
+  {
+    "code": "W101",
+    "name": "Crossroad sign",
+    "description": "Crossroad sign"
+  },
+  {
+    "code": "W102",
+    "name": "Priority crossroad sign",
+    "description": "Priority crossroad sign"
+  },
+  {
+    "code": "W103",
+    "name": "Secondary crossroad sign",
+    "description": "Secondary crossroad sign"
+  },
+  {
+    "code": "W104",
+    "name": "T- & skew T-junction sign",
+    "description": "T- & skew T-junction sign"
+  },
+  {
+    "code": "W105",
+    "name": "T- & skew T-junction sign",
+    "description": "T- & skew T-junction sign"
+  },
+  {
+    "code": "W106",
+    "name": "T- & skew T-junction sign",
+    "description": "T- & skew T-junction sign"
+  },
+  {
+    "code": "W107",
+    "name": "Side road junction sign",
+    "description": "Side road junction sign"
+  },
+  {
+    "code": "W108",
+    "name": "Side road junction sign",
+    "description": "Side road junction sign"
+  },
+  {
+    "code": "W109",
+    "name": "Staggered junction sign",
+    "description": "Staggered junction sign"
+  },
+  {
+    "code": "W110",
+    "name": "Staggered junction sign",
+    "description": "Staggered junction sign"
+  },
+  {
+    "code": "W111",
+    "name": "Sharp junction sign",
+    "description": "Sharp junction sign"
+  },
+  {
+    "code": "W112",
+    "name": "Sharp junction sign",
+    "description": "Sharp junction sign"
+  },
+  {
+    "code": "W113",
+    "name": "Sharp junction sign",
+    "description": "Sharp junction sign"
+  },
+  {
+    "code": "W114",
+    "name": "Sharp junction sign",
+    "description": "Sharp junction sign"
+  },
+  {
+    "code": "W115",
+    "name": "Y-junction sign",
+    "description": "Y-junction sign"
+  },
+  {
+    "code": "W116",
+    "name": "End of dual roadway sign",
+    "description": "End of dual roadway sign"
+  },
+  {
+    "code": "W117",
+    "name": "End of dual roadway sign",
+    "description": "End of dual roadway sign"
+  },
+  {
+    "code": "W118",
+    "name": "Beginning of dual roadway sign",
+    "description": "Beginning of dual roadway sign"
+  },
+  {
+    "code": "W119",
+    "name": "Beginning of dual roadway sign",
+    "description": "Beginning of dual roadway sign"
+  },
+  {
+    "code": "W201",
+    "name": "Traffic circle sign",
+    "description": "Traffic circle sign"
+  },
+  {
+    "code": "W202",
+    "name": "Gentle curve sign",
+    "description": "Gentle curve sign"
+  },
+  {
+    "code": "W203",
+    "name": "Gentle curve sign",
+    "description": "Gentle curve sign"
+  },
+  {
+    "code": "W204",
+    "name": "Sharp curve sign",
+    "description": "Sharp curve sign"
+  },
+  {
+    "code": "W205",
+    "name": "Sharp curve sign",
+    "description": "Sharp curve sign"
+  },
+  {
+    "code": "W206",
+    "name": "Hairpin bend sign",
+    "description": "Hairpin bend sign"
+  },
+  {
+    "code": "W207",
+    "name": "Hairpin bend sign",
+    "description": "Hairpin bend sign"
+  },
+  {
+    "code": "W208",
+    "name": "Winding road sign",
+    "description": "Winding road sign"
+  },
+  {
+    "code": "W209",
+    "name": "Winding road sign",
+    "description": "Winding road sign"
+  },
+  {
+    "code": "W210",
+    "name": "Combined curves sign",
+    "description": "Combined curves sign"
+  },
+  {
+    "code": "W211",
+    "name": "Combined curves sign",
+    "description": "Combined curves sign"
+  },
+  {
+    "code": "W212",
+    "name": "Two-way traffic sign",
+    "description": "Two-way traffic sign"
+  },
+  {
+    "code": "W213",
+    "name": "Two-way traffic crossroad sign",
+    "description": "Two-way traffic crossroad sign"
+  },
+  {
+    "code": "W214",
+    "name": "Lane ends sign",
+    "description": "Lane ends sign"
+  },
+  {
+    "code": "W215",
+    "name": "Lane ends sign",
+    "description": "Lane ends sign"
+  },
+  {
+    "code": "W216",
+    "name": "Concealed driveway sign",
+    "description": "Concealed driveway sign"
+  },
+  {
+    "code": "W217",
+    "name": "Concealed driveway sign",
+    "description": "Concealed driveway sign"
+  },
+  {
+    "code": "W218",
+    "name": "Concealed driveway sign",
+    "description": "Concealed driveway sign"
+  },
+  {
+    "code": "W301",
+    "name": "Traffic signal ahead sign",
+    "description": "Traffic signal ahead sign"
+  },
+  {
+    "code": "W302",
+    "name": "Traffic control STOP ahead sign",
+    "description": "Traffic control STOP ahead sign"
+  },
+  {
+    "code": "W303",
+    "name": "Traffic control YIELD ahead sign",
+    "description": "Traffic control YIELD ahead sign"
+  },
+  {
+    "code": "W306",
+    "name": "Pedestrian crossing sign",
+    "description": "Pedestrian crossing sign"
+  },
+  {
+    "code": "W307",
+    "name": "Pedestrians sign",
+    "description": "Pedestrians sign"
+  },
+  {
+    "code": "W308",
+    "name": "Children sign",
+    "description": "Children sign"
+  },
+  {
+    "code": "W309",
+    "name": "Cyclists sign",
+    "description": "Cyclists sign"
+  },
+  {
+    "code": "W310",
+    "name": "Farm animals sign",
+    "description": "Farm animals sign"
+  },
+  {
+    "code": "W311",
+    "name": "Farm animals sign",
+    "description": "Farm animals sign"
+  },
+  {
+    "code": "W312",
+    "name": "Farm animals sign",
+    "description": "Farm animals sign"
+  },
+  {
+    "code": "W313",
+    "name": "Wild animals ahead sign",
+    "description": "Wild animals ahead sign"
+  },
+  {
+    "code": "W314",
+    "name": "Gate sign",
+    "description": "Gate sign"
+  },
+  {
+    "code": "W315",
+    "name": "Motor gate sign",
+    "description": "Motor gate sign"
+  },
+  {
+    "code": "W316",
+    "name": "Motor gate sign",
+    "description": "Motor gate sign"
+  },
+  {
+    "code": "W317",
+    "name": "Motor gate sign",
+    "description": "Motor gate sign"
+  },
+  {
+    "code": "W318",
+    "name": "Railway crossing sign",
+    "description": "Railway crossing sign"
+  },
+  {
+    "code": "W319",
+    "name": "Tunnel sign",
+    "description": "Tunnel sign"
+  },
+  {
+    "code": "W320",
+    "name": "Height restriction sign",
+    "description": "Height restriction sign"
+  },
+  {
+    "code": "W321",
+    "name": "Length restricted sign",
+    "description": "Length restricted sign"
+  },
+  {
+    "code": "W322",
+    "name": "Steep descent & ascent sign",
+    "description": "Steep descent & ascent sign"
+  },
+  {
+    "code": "W323",
+    "name": "Steep descent & ascent sign",
+    "description": "Steep descent & ascent sign"
+  },
+  {
+    "code": "W324",
+    "name": "Slow moving heavy vehicles sign",
+    "description": "Slow moving heavy vehicles sign"
+  },
+  {
+    "code": "W325",
+    "name": "Gravel road begins sign",
+    "description": "Gravel road begins sign"
+  },
+  {
+    "code": "W326",
+    "name": "Narrow bridge sign",
+    "description": "Narrow bridge sign"
+  },
+  {
+    "code": "W327",
+    "name": "One vehicle width structure sign",
+    "description": "One vehicle width structure sign"
+  },
+  {
+    "code": "W328",
+    "name": "Road narrows from both sides sign",
+    "description": "Road narrows from both sides sign"
+  },
+  {
+    "code": "W329",
+    "name": "Road narrows from one side only sign",
+    "description": "Road narrows from one side only sign"
+  },
+  {
+    "code": "W330",
+    "name": "Road narrows from one side only sign",
+    "description": "Road narrows from one side only sign"
+  },
+  {
+    "code": "W331",
+    "name": "Uneven roadway sign",
+    "description": "Uneven roadway sign"
+  },
+  {
+    "code": "W332",
+    "name": "Speed humps sign",
+    "description": "Speed humps sign"
+  },
+  {
+    "code": "W333",
+    "name": "Slippery road sign",
+    "description": "Slippery road sign"
+  },
+  {
+    "code": "W334",
+    "name": "Falling rocks sign",
+    "description": "Falling rocks sign"
+  },
+  {
+    "code": "W335",
+    "name": "Falling rocks sign",
+    "description": "Falling rocks sign"
+  },
+  {
+    "code": "W339",
+    "name": "General warning sign",
+    "description": "General warning sign"
+  },
+  {
+    "code": "W346",
+    "name": "Emergency flashing light sign",
+    "description": "Emergency flashing light sign"
+  },
+  {
+    "code": "W348",
+    "name": "Jetty edge or river-bank sign",
+    "description": "Jetty edge or river-bank sign"
+  },
+  {
+    "code": "W349",
+    "name": "Crosswinds sign",
+    "description": "Crosswinds sign"
+  },
+  {
+    "code": "W350",
+    "name": "Drift sign",
+    "description": "Drift sign"
+  },
+  {
+    "code": "W351",
+    "name": "Low flying aircraft sign",
+    "description": "Low flying aircraft sign"
+  },
+  {
+    "code": "W352",
+    "name": "Agricultural vehicle sign",
+    "description": "Agricultural vehicle sign"
+  },
+  {
+    "code": "W354",
+    "name": "Reduced visibility sign",
+    "description": "Reduced visibility sign"
+  },
+  {
+    "code": "W355",
+    "name": "Congestion sign",
+    "description": "Congestion sign"
+  },
+  {
+    "code": "W356",
+    "name": "Horses & riders sign",
+    "description": "Horses & riders sign"
+  },
+  {
+    "code": "W357",
+    "name": "Elephant sign",
+    "description": "Elephant sign"
+  },
+  {
+    "code": "W358",
+    "name": "Warthog sign",
+    "description": "Warthog sign"
+  },
+  {
+    "code": "W359",
+    "name": "Hippo sign",
+    "description": "Hippo sign"
+  },
+  {
+    "code": "W360",
+    "name": "Width restricted sign",
+    "description": "Width restricted sign"
+  },
+  {
+    "code": "W361",
+    "name": "Electrical shock sign",
+    "description": "Electrical shock sign"
+  },
+  {
+    "code": "W362",
+    "name": "Tram sign",
+    "description": "Tram sign"
+  },
+  {
+    "code": "W363",
+    "name": "Gravel road ends sign",
+    "description": "Gravel road ends sign"
+  },
+  {
+    "code": "W401",
+    "name": "Danger plate sign",
+    "description": "Danger plate sign"
+  },
+  {
+    "code": "W402",
+    "name": "Danger plate sign",
+    "description": "Danger plate sign"
+  },
+  {
+    "code": "W403",
+    "name": "Railway crossing sign",
+    "description": "Railway crossing sign"
+  },
+  {
+    "code": "W404",
+    "name": "Railway crossing sign",
+    "description": "Railway crossing sign"
+  },
+  {
+    "code": "W405",
+    "name": "Sharp curve chevron sign",
+    "description": "Sharp curve chevron sign"
+  },
+  {
+    "code": "W406",
+    "name": "Sharp curve chevron sign",
+    "description": "Sharp curve chevron sign"
+  },
+  {
+    "code": "W407",
+    "name": "Sharp curve chevron sign",
+    "description": "Sharp curve chevron sign"
+  },
+  {
+    "code": "W408",
+    "name": "Sharp curve chevron sign",
+    "description": "Sharp curve chevron sign"
+  },
+  {
+    "code": "W409",
+    "name": "T-junction chevron sign",
+    "description": "T-junction chevron sign"
+  },
+  {
+    "code": "W410",
+    "name": "Dead end or road closed chevron sign",
+    "description": "Dead end or road closed chevron sign"
+  },
+  {
+    "code": "W411",
+    "name": "Boom barricade sign",
+    "description": "Boom barricade sign"
+  },
+  {
+    "code": "W413",
+    "name": "Gore plate sign",
+    "description": "Gore plate sign"
+  },
+  {
+    "code": "W414",
+    "name": "Gore chevron sign",
+    "description": "Gore chevron sign"
+  },
+  {
+    "code": "W415",
+    "name": "Overhead danger plate sign",
+    "description": "Overhead danger plate sign"
+  },
+  {
+    "code": "IN1",
+    "name": "Countdown sign",
+    "description": "Countdown sign"
+  },
+  {
+    "code": "IN2",
+    "name": "Countdown sign",
+    "description": "Countdown sign"
+  },
+  {
+    "code": "IN3",
+    "name": "Countdown sign",
+    "description": "Countdown sign"
+  },
+  {
+    "code": "IN4",
+    "name": "Cul-de-sac sign",
+    "description": "Cul-de-sac sign"
+  },
+  {
+    "code": "IN5",
+    "name": "Cul-de-sac sign",
+    "description": "Cul-de-sac sign"
+  },
+  {
+    "code": "IN6",
+    "name": "Cul-de-sac sign",
+    "description": "Cul-de-sac sign"
+  },
+  {
+    "code": "IN7",
+    "name": "Right of way sign",
+    "description": "Right of way sign"
+  },
+  {
+    "code": "IN10",
+    "name": "Park & ride sign",
+    "description": "Park & ride sign"
+  },
+  {
+    "code": "IN11.1",
+    "name": "Supplementary plate sign",
+    "description": "Supplementary plate sign"
+  },
+  {
+    "code": "IN11.2",
+    "name": "Supplementary plate sign",
+    "description": "Supplementary plate sign"
+  },
+  {
+    "code": "IN11.3",
+    "name": "Supplementary plate sign",
+    "description": "Supplementary plate sign"
+  },
+  {
+    "code": "IN11.4",
+    "name": "Supplementary plate sign",
+    "description": "Supplementary plate sign"
+  },
+  {
+    "code": "IN11.568",
+    "name": "Supplementary plate sign",
+    "description": "Supplementary plate sign"
+  },
+  {
+    "code": "IN11.577",
+    "name": "Supplementary plate sign",
+    "description": "Supplementary plate sign"
+  },
+  {
+    "code": "IN12",
+    "name": "Information centre sign",
+    "description": "Information centre sign"
+  },
+  {
+    "code": "IN14",
+    "name": "Co-ordinated traffic signals sign",
+    "description": "Co-ordinated traffic signals sign"
+  },
+  {
+    "code": "IN15",
+    "name": "Multi-phase traffic signals sign",
+    "description": "Multi-phase traffic signals sign"
+  },
+  {
+    "code": "IN19",
+    "name": "Modal transfer sign",
+    "description": "Modal transfer sign"
+  },
+  {
+    "code": "RTM1",
+    "name": "Stop line marking",
+    "description": "Stop line marking"
+  },
+  {
+    "code": "RTM2",
+    "name": "Yield line marking",
+    "description": "Yield line marking"
+  },
+  {
+    "code": "RTM3",
+    "name": "Pedestrian crossing lines marking",
+    "description": "Pedestrian crossing lines marking"
+  },
+  {
+    "code": "RTM4",
+    "name": "Block pedestrian crossing marking",
+    "description": "Block pedestrian crossing marking"
+  },
+  {
+    "code": "RM1",
+    "name": "No overtaking marking",
+    "description": "No overtaking marking"
+  },
+  {
+    "code": "RM2",
+    "name": "No crossing marking",
+    "description": "No crossing marking"
+  },
+  {
+    "code": "RM3",
+    "name": "Channelizing line marking",
+    "description": "Channelizing line marking"
+  },
+  {
+    "code": "RM4.1",
+    "name": "Left edge line marking",
+    "description": "Left edge line marking"
+  },
+  {
+    "code": "RM4.2",
+    "name": "Right edge line marking",
+    "description": "Right edge line marking"
+  },
+  {
+    "code": "RM5",
+    "name": "Painted island marking",
+    "description": "Painted island marking"
+  },
+  {
+    "code": "RM6",
+    "name": "Parking bay marking",
+    "description": "Parking bay marking"
+  },
+  {
+    "code": "RM7",
+    "name": "Exclusive parking bay marking",
+    "description": "Exclusive parking bay marking"
+  },
+  {
+    "code": "RM8",
+    "name": "Mandatory direction arrow marking",
+    "description": "Mandatory direction arrow marking"
+  },
+  {
+    "code": "RM9",
+    "name": "Exclusive lane line marking",
+    "description": "Exclusive lane line marking"
+  },
+  {
+    "code": "RM10",
+    "name": "Box junction marking",
+    "description": "Box junction marking"
+  },
+  {
+    "code": "RM11",
+    "name": "Zig-zag zone marking",
+    "description": "Zig-zag zone marking"
+  },
+  {
+    "code": "RM12",
+    "name": "No stopping line marking",
+    "description": "No stopping line marking"
+  },
+  {
+    "code": "RM13",
+    "name": "No parking line marking",
+    "description": "No parking line marking"
+  },
+  {
+    "code": "RM14",
+    "name": "No motor cycles marking",
+    "description": "No motor cycles marking"
+  },
+  {
+    "code": "RM15",
+    "name": "Mini-circle marking",
+    "description": "Mini-circle marking"
+  },
+  {
+    "code": "RM16",
+    "name": "Disabled persons parking marking",
+    "description": "Disabled persons parking marking"
+  },
+  {
+    "code": "RM17",
+    "name": "Exclusive use lane symbol marking",
+    "description": "Exclusive use lane symbol marking"
+  },
+  {
+    "code": "WM1",
+    "name": "Railway crossing marking",
+    "description": "Railway crossing marking"
+  },
+  {
+    "code": "WM2",
+    "name": "Continuity line marking",
+    "description": "Continuity line marking"
+  },
+  {
+    "code": "WM3",
+    "name": "Dividing line marking",
+    "description": "Dividing line marking"
+  },
+  {
+    "code": "WM4",
+    "name": "Reversible lane line marking",
+    "description": "Reversible lane line marking"
+  },
+  {
+    "code": "WM5",
+    "name": "Yield sign ahead marking",
+    "description": "Yield sign ahead marking"
+  },
+  {
+    "code": "WM6",
+    "name": "Lane reduction arrow marking",
+    "description": "Lane reduction arrow marking"
+  },
+  {
+    "code": "WM7",
+    "name": "Mandatory direction arrow ahead marking",
+    "description": "Mandatory direction arrow ahead marking"
+  },
+  {
+    "code": "WM8",
+    "name": "No overtaking or no crossing line ahead marking",
+    "description": "No overtaking or no crossing line ahead marking"
+  },
+  {
+    "code": "WM9.1",
+    "name": "Arrestor bed ahead marking",
+    "description": "Arrestor bed ahead marking"
+  },
+  {
+    "code": "WM9.2",
+    "name": "Escape road ahead marking",
+    "description": "Escape road ahead marking"
+  },
+  {
+    "code": "WM10",
+    "name": "Speed hump marking",
+    "description": "Speed hump marking"
+  },
+  {
+    "code": "WM11",
+    "name": "End of exclusive use lane arrows marking",
+    "description": "End of exclusive use lane arrows marking"
+  },
+  {
+    "code": "GM1",
+    "name": "Lane line marking",
+    "description": "Lane line marking"
+  },
+  {
+    "code": "GM2",
+    "name": "Guide line marking",
+    "description": "Guide line marking"
+  },
+  {
+    "code": "GM3",
+    "name": "Furcation arrow marking",
+    "description": "Furcation arrow marking"
+  },
+  {
+    "code": "GM4",
+    "name": "Information arrow marking",
+    "description": "Information arrow marking"
+  },
+  {
+    "code": "GM5",
+    "name": "Bicycle crossing guidelines marking",
+    "description": "Bicycle crossing guidelines marking"
+  },
+  {
+    "code": "GM6",
+    "name": "Symbol road marking",
+    "description": "Symbol road marking"
+  },
+  {
+    "code": "GM7",
+    "name": "Word marking",
+    "description": "Word marking"
+  },
+  {
+    "code": "GM8",
+    "name": "Kerbing marking",
+    "description": "Kerbing marking"
+  }
+]
