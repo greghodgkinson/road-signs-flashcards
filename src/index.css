@@ -264,6 +264,20 @@ button:active {
   padding: 32px 0;
 }
 
+.home-made-with-love {
+  margin-top: auto;
+  padding-top: 32px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+}
+
+.home-made-with-love span {
+  color: var(--red);
+}
+
 /* ─────────────────────────────────────────────────────────────
    Score List (shared)
 ───────────────────────────────────────────────────────────── */

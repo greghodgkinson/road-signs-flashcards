@@ -94,6 +94,10 @@ export default function HomeScreen({ onStart, onLibrary }: Props) {
       {!loading && recentScores.length === 0 && (
         <p className="home-no-scores">No quizzes yet — take your first quiz!</p>
       )}
+
+      <p className="home-made-with-love">
+        Made with <span aria-label="love" role="img">♥</span> by Dad
+      </p>
     </div>
   );
 }
