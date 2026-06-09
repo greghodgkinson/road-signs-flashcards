@@ -9,7 +9,7 @@ const tempBase = join(process.env.TMPDIR ?? '/tmp', 'rtsigns-page-2');
 const tempPng = `${tempBase}.png`;
 const tempBbox = `${tempBase}.html`;
 
-const fileName = (code) => code.toLowerCase().replaceAll('.', '-');
+const fileName = (code) => code.toLowerCase().replaceAll('.', '-').replace(/[()]/g, '-').replace(/-+$/g, '');
 
 // Page-2 road markings vary substantially in size. These dimensions preserve
 // each complete illustration while stopping before the neighboring labels.
@@ -50,12 +50,18 @@ const cropOverrides = {
   RM9: { width: 280, height: 300 },
   RM10: { width: 220, height: 300 },
   RM11: { width: 260, height: 310 },
-  RM12: { width: 280, height: 300 },
-  RM13: { width: 280, height: 300 },
+  'RM12(a)': { width: 170, height: 300, xOffset: -115 },
+  'RM12(b)': { width: 170, height: 300, xOffset: 105 },
+  'RM13(a)': { width: 170, height: 300, xOffset: -130 },
+  'RM13(b)': { width: 170, height: 300, xOffset: 70 },
   RM14: { width: 300, height: 300 },
   RM15: { width: 360, height: 300 },
   RM16: { width: 380, height: 300 },
-  RM17: { width: 780, height: 270 },
+  'RM17(a)': { width: 160, height: 270, xOffset: -338 },
+  'RM17(b)': { width: 160, height: 270, xOffset: -167 },
+  'RM17(c)': { width: 160, height: 270, xOffset: -11 },
+  'RM17(d)': { width: 160, height: 270, xOffset: 166 },
+  'RM17(e)': { width: 160, height: 270, xOffset: 331 },
   WM1: { width: 210, height: 270 },
   WM2: { width: 350, height: 270 },
   WM3: { width: 300, height: 270 },
@@ -67,13 +73,17 @@ const cropOverrides = {
   'WM9.1': { width: 500, height: 300 },
   'WM9.2': { width: 500, height: 330 },
   WM10: { width: 320, height: 300 },
-  WM11: { width: 380, height: 330 },
+  'WM11(a)': { width: 220, height: 330, xOffset: -134 },
+  'WM11(b)': { width: 220, height: 330, xOffset: 122 },
   GM1: { width: 600, height: 250 },
   GM2: { width: 360, height: 300 },
   GM3: { width: 460, height: 250 },
   GM4: { width: 220, height: 250 },
   GM5: { width: 600, height: 250 },
-  GM6: { width: 720, height: 250 },
+  'GM6(a)': { width: 180, height: 250, xOffset: -310 },
+  'GM6(b)': { width: 150, height: 250, xOffset: -100 },
+  'GM6(c)': { width: 150, height: 250, xOffset: 110 },
+  'GM6(d)': { width: 180, height: 250, xOffset: 290 },
   GM7: { width: 560, height: 250 },
   GM8: { width: 1000, height: 170 },
 };
@@ -95,7 +105,8 @@ const words = [...page.matchAll(
 }));
 
 for (const code of page2Codes) {
-  let word = words.find((candidate) => candidate.text === code);
+  const sourceCode = code.replace(/\([a-e]\)$/, '');
+  let word = words.find((candidate) => candidate.text === sourceCode);
   if (code === 'W313' && !word) {
     const w312 = words.find((candidate) => candidate.text === 'W312');
     if (w312) word = { ...w312, xMin: w312.xMin + 96.8, xMax: w312.xMax + 96.8 };

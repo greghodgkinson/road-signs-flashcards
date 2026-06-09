@@ -7,9 +7,9 @@ const categoryFor = (code: string): SignCategory => {
 };
 
 export const RTSIGNS_PAGE_2: RoadSign[] = page2Catalog.map(({ code, name, description }) => ({
-  id: `rtsigns-${code.toLowerCase().replace(/\./g, '-')}`,
+  id: `rtsigns-${code.toLowerCase().replace(/\./g, '-').replace(/[()]/g, '-').replace(/-+$/g, '')}`,
   name,
   description,
   category: categoryFor(code),
-  imagePath: `/signs/rtsigns/page-2/${code.toLowerCase().replace(/\./g, '-')}.png`,
+  imagePath: `/signs/rtsigns/page-2/${code.toLowerCase().replace(/\./g, '-').replace(/[()]/g, '-').replace(/-+$/g, '')}.png`,
 }));

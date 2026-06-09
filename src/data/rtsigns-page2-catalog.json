@@ -675,12 +675,22 @@
     "description": "Zig-zag zone marking"
   },
   {
-    "code": "RM12",
+    "code": "RM12(a)",
     "name": "No stopping line marking",
     "description": "No stopping line marking"
   },
   {
-    "code": "RM13",
+    "code": "RM12(b)",
+    "name": "No stopping line marking",
+    "description": "No stopping line marking"
+  },
+  {
+    "code": "RM13(a)",
+    "name": "No parking line marking",
+    "description": "No parking line marking"
+  },
+  {
+    "code": "RM13(b)",
     "name": "No parking line marking",
     "description": "No parking line marking"
   },
@@ -700,7 +710,27 @@
     "description": "Disabled persons parking marking"
   },
   {
-    "code": "RM17",
+    "code": "RM17(a)",
+    "name": "Exclusive use lane symbol marking",
+    "description": "Exclusive use lane symbol marking"
+  },
+  {
+    "code": "RM17(b)",
+    "name": "Exclusive use lane symbol marking",
+    "description": "Exclusive use lane symbol marking"
+  },
+  {
+    "code": "RM17(c)",
+    "name": "Exclusive use lane symbol marking",
+    "description": "Exclusive use lane symbol marking"
+  },
+  {
+    "code": "RM17(d)",
+    "name": "Exclusive use lane symbol marking",
+    "description": "Exclusive use lane symbol marking"
+  },
+  {
+    "code": "RM17(e)",
     "name": "Exclusive use lane symbol marking",
     "description": "Exclusive use lane symbol marking"
   },
@@ -760,7 +790,12 @@
     "description": "Speed hump marking"
   },
   {
-    "code": "WM11",
+    "code": "WM11(a)",
+    "name": "End of exclusive use lane arrows marking",
+    "description": "End of exclusive use lane arrows marking"
+  },
+  {
+    "code": "WM11(b)",
     "name": "End of exclusive use lane arrows marking",
     "description": "End of exclusive use lane arrows marking"
   },
@@ -790,7 +825,22 @@
     "description": "Bicycle crossing guidelines marking"
   },
   {
-    "code": "GM6",
+    "code": "GM6(a)",
+    "name": "Symbol road marking",
+    "description": "Symbol road marking"
+  },
+  {
+    "code": "GM6(b)",
+    "name": "Symbol road marking",
+    "description": "Symbol road marking"
+  },
+  {
+    "code": "GM6(c)",
+    "name": "Symbol road marking",
+    "description": "Symbol road marking"
+  },
+  {
+    "code": "GM6(d)",
     "name": "Symbol road marking",
     "description": "Symbol road marking"
   },
