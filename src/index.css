@@ -265,8 +265,7 @@ button:active {
 }
 
 .home-made-with-love {
-  margin-top: auto;
-  padding-top: 32px;
+  margin-top: 10px;
   text-align: center;
   color: var(--text-muted);
   font-size: 0.72rem;
